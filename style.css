@@ -1,0 +1,16 @@
+body {background-color: rgba(37, 35, 35, 0.815);}
+h1 {color: pink;}
+p {color: red;}
+h1{
+    font-family: initial;
+    font-size: 150%;
+}
+p{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+}
+p{
+    border: 5px solid pink;
+    margin: 50px;
+}
