@@ -1,0 +1,15 @@
+html{
+    background-color: pink;
+}
+
+header{
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+p{
+    font-family: monospace;
+    font-size: 150%;
+    border: 2px solid powderblue;
+    padding: 30px;
+}
