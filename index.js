@@ -9,13 +9,6 @@ let Binary8
 let Binary9 
 let BinaryV   
 let Hex2 
-let Hex3
-let Hex4
-let Hex5 
-let Hex6 
-let Hex7
-let Hex8
-let Hex9
 let HexV
 
 Binary9 = Decimal%2, BinaryV = Math.floor(Decimal/2);
@@ -31,23 +24,44 @@ console.log(` The binary form of that is ${Binary2} ${Binary3} ${Binary4} ${Bina
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Hex2 = Decimal, HexV = Math.floor(Decimal/16)
+Hex2 = Decimal%16, HexV = Math.floor(Decimal/16)
 
-if(remainder1 == 10){
-    remainder1 = "A";
+if(HexV == 10){
+    HexV = "A";
 }
-if(remainder1 == 11){
-    remainder1 = "B";
+if(HexV == 11){
+    HexV = "B";
 }
-if(remainder1 == 12){
-    remainder1 = "C";
+if(HexV == 12){
+    HexV = "C";
 }
-if(remainder1 == 13){
-    remainder1 = "D";
+if(HexV == 13){
+    HexV = "D";
 }
-if(remainder1 == 14){
-    remainder1 = "E";
+if(HexV == 14){
+    HexV = "E";
 }
-if(remainder1 == 15){
-    remainder1 = "F";
+if(HexV == 15){
+    HexV = "F";
 }
+
+if(Hex2 == 10){
+    HexV = "A";
+}
+if(Hex2 == 11){
+    HexV = "B";
+}
+if(Hex2 == 12){
+    HexV = "C";
+}
+if(Hex2 == 13){
+    HexV = "D";
+}
+if(Hex2 == 14){
+    HexV = "E";
+}
+if(Hex2 == 15){
+    HexV = "F";
+}
+
+console.log(` The hexadecimal form of that is ${HexV} ${Hex2} `);
