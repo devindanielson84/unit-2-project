@@ -1,0 +1,38 @@
+html{
+    background-color: pink;
+}
+
+header{
+    font-size: 3em;
+    font-family: fantasy;
+}
+
+p{
+    font-family: monospace;
+    font-size: 150%;
+    border: 2px solid powderblue;
+    padding: 30px;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
