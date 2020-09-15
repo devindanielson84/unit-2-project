@@ -1,4 +1,4 @@
-let Decimal = Number(prompt(`Enter Binary count`));
+let Decimal = Number(prompt(`Enter Decimal to be converted:`));
 let Binary2 
 let Binary3 
 let Binary4 
