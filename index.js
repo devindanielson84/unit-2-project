@@ -1,4 +1,10 @@
-let Decimal = Number(prompt(`Enter Decimal to be converted:`));
+let Decimal = prompt(`Enter Decimal to be converted:`);
+
+// while (typeof Decimal == 'string'){
+//     alert(`Yeah lets try that one more time`)
+//     Decimal = prompt(`Enter Decimal to be converted:`);
+// }
+
 let Binary2 
 let Binary3 
 let Binary4 
